@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+
+<body>
+    <!-- Main Container -->
+    <section class="bg-gray-50 min-h-screen flex items-center justify-center">
+
+        <!-- Login Container -->
+        <div class="bg-gray-100 flex rounded-2xl shadow-lg max-w-3xl p-5">
+            <div class="md:w-1/2 px-8">
+                <h2 class="font-bold text-2xl text-stone-600">login</h2>
+                <p class="mt-4 text-sm text-stone-600">Already a member ? Login in</p>
+
+                <!-- Form -->
+                <form action="" class="flex flex-col gap-4">
+                    <input class="p-2 mt-10 rounded-xl border" type="email" placeholder="Email">
+                    <input class="p-2 rounded-xl border" type="password" placeholder="Password">
+                    <button class="bg-[#C4B7BF] rounded-xl py-2 font-semibold text-white hover:scale-105 duration-300"
+                        value="submit">Login</button>
+                </form>
+
+                <div class="mt-10 grid grid-cols-3 items-center text-gray-500">
+                    <hr>
+                    <p class="text-center">OR</p>
+                    <hr>
+                </div>
+
+                <div>
+                    <button
+                        class="bg-white py-2 w-full mt-6 rounded-xl flex justify-center items-center text-sm hover:scale-105 duration-300">
+                        <svg class="mr-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-google" viewBox="0 0 16 16">
+                            <path
+                                d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z" />
+                        </svg>
+                        Login wth Google
+                    </button>
+                    <div class=" border-b text-center mt-4 py-4">
+                        <a href="#">Forgot your password?</a>
+                    </div>
+                    <div class="flex items-center justify-between mt-4">
+                        <p>Don't have an account?</p>
+                        <button
+                            class="bg-white px-4 py-1 rounded-xl ml-2 hover:scale-110 duration-300">Register</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image Container -->
+            <div class="w-1/2  md:block hidden">
+                <img class="rounded-2xl" src="./login (2).jpg" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
